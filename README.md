@@ -7,6 +7,28 @@ A SparkButtonCompose is used to create a sparking effect like twitter's like but
 <img src="https://github.com/JustinGeorgeJoseph/SparkButtonCompose/blob/main/demo/like-button.gif" alt="gif" title="gif" width="300" height="650" />
 </p>
 
+## Including in your project
+[![](https://jitpack.io/v/JustinGeorgeJoseph/SparkButtonCompose.svg)](https://jitpack.io/#JustinGeorgeJoseph/SparkButtonCompose)
+
+
+## Dependency
+```
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Add Dependency
+```
+dependencies {
+    implementation 'com.github.JustinGeorgeJoseph:SparkButtonCompose:1.0.0'
+}
+```
+
 ## Usage
 
 ```
